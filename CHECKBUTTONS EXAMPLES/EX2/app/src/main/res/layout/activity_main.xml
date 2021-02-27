@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/"
+        android:text="CheckBoxExample "
+        android:textColor="#169179"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Choose your favourite cities "
+        android:textColor="#169179"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/myDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Delhi" />
+    <CheckBox
+        android:id="@+id/myBang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Bangalore" />
+    <CheckBox
+        android:id="@+id/myPun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Pune" />
+    <CheckBox
+        android:id="@+id/mymum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Mumbai" />
+    <CheckBox
+        android:id="@+id/myShimla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Shimla" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="show me" />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="SELECT ALL" />
+</LinearLayout>

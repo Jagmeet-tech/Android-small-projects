@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center_vertical"
+    android:background="@drawable/images">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Home Page"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:id="@+id/tv"
+        android:textAlignment="center"/>
+
+    <Button
+
+        android:id="@+id/buttonSignIN"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Sign In"
+        android:textColor="@android:color/holo_red_dark"
+
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:onClick="signIn"/>
+
+
+
+    <Button
+
+        android:id="@+id/buttonSignUP"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Sign Up"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>

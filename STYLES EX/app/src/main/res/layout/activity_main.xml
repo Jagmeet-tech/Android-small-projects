@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#00ADEF"
+        android:textSize="20dp"
+        android:text="Styles And Themes Example"/>
+    <TextView
+        android:id="@+id/TextView2"
+        style="@style/TextviewStyle"
+        android:text="Style And Theme"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/btnShow"
+        android:text="Click on Button"
+        android:layout_marginTop="100dp"
+        style="@style/ButtonStyle" />
+</LinearLayout>

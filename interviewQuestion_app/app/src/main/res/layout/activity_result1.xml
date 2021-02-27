@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.interviewquestion_app.ResultActivity1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tres"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#F44336"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btRestart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tres2"
+        android:background="#76FF03"
+        android:layout_below="@+id/tres"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tres3"
+        android:background="#FFEB3B"
+        android:layout_below="@+id/tres2"
+        android:layout_marginTop="33dp"
+        android:layout_alignRight="@+id/tres2"
+        android:layout_alignEnd="@+id/tres2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+</RelativeLayout>

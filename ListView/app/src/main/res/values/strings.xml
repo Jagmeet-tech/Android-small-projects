@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LISTVIEW</string>
+    <string-array name="array_technology">
+        <item>ANDROID</item>
+        <item>.NET</item>
+        <item>JAVA</item>
+        <item>PHP</item>
+        <item>PYTHON</item>
+        <item>AJAX</item>
+        <item>PERL</item>
+    </string-array>
+</resources>
